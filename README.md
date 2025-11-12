@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⚙️ AlgoPlayground – Algorithm Visualizer
 
 **AlgoPlayground** is an interactive web app that visualizes core algorithms like sorting and pathfinding.  
@@ -46,3 +47,6 @@ B --> C[Step Data]
 C --> D[Visualizer Renderer]
 D --> E[Animated UI Output]
 ```
+=======
+# AlgoPlayground
+>>>>>>> c9505b401a5ec876489a597eac38ebef345285aa
