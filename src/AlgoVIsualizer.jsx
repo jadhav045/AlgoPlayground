@@ -13,11 +13,11 @@ import { heapSort } from "./algorithms/sorting/heapSort";
 import { bfs } from "./algorithms/pathfinding/bfs";
 import { dfs } from "./algorithms/pathfinding/dfs";
 import { dijkstra } from "./algorithms/pathfinding/dijkstra";
-// import { aStar } from "./algorithms/pathfinding/aStar";
+import { aStar } from "./algorithms/pathfinding/aStar";
 
 // Import utilities
 import { generateArray } from "./utils/helpers";
-import { aStar } from "./algorithms/pathfinding/astar";
+// import { aStar } from "./algorithms/pathfinding/astar";
 import ProjectLevelBanner from "./ProjectLevelBanner";
 
 export default function AlgoVisualizer() {
