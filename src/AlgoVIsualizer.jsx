@@ -2,21 +2,21 @@ import React, { useRef, useEffect, useState } from "react";
 import { Play, RotateCcw, Zap, Grid3x3, BarChart3, Info } from "lucide-react";
 
 // Import sorting algorithms
-import { bubbleSort } from "./algorithms/sorting/bubbleSort";
-import { selectionSort } from "./algorithms/sorting/selectionSort";
-import { insertionSort } from "./algorithms/sorting/insertionSort";
-import { mergeSort } from "./algorithms/sorting/mergeSort";
-import { quickSort } from "./algorithms/sorting/quickSort";
-import { heapSort } from "./algorithms/sorting/heapSort";
+import { bubbleSort } from "./algorithms/sorting/bubbleSort.js";
+import { selectionSort } from "./algorithms/sorting/selectionSort.js";
+import { insertionSort } from "./algorithms/sorting/insertionSort.js";
+import { mergeSort } from "./algorithms/sorting/mergeSort.js";
+import { quickSort } from "./algorithms/sorting/quickSort.js";
+import { heapSort } from "./algorithms/sorting/heapSort.js";
 
 // Import pathfinding algorithms
-import { bfs } from "./algorithms/pathfinding/bfs";
-import { dfs } from "./algorithms/pathfinding/dfs";
-import { dijkstra } from "./algorithms/pathfinding/dijkstra";
-import { aStar } from "./algorithms/pathfinding/aStar";
+import { bfs } from "./algorithms/pathfinding/bfs.js";
+import { dfs } from "./algorithms/pathfinding/dfs.js";
+import { dijkstra } from "./algorithms/pathfinding/dijkstra.js";
+import { aStar } from "./algorithms/pathfinding/aStar.js";
 
 // Import utilities
-import { generateArray } from "./utils/helpers";
+import { generateArray } from "./utils/helpers.js";
 // import { aStar } from "./algorithms/pathfinding/astar";
 import ProjectLevelBanner from "./ProjectLevelBanner";
 
